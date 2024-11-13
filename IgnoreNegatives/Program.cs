@@ -21,7 +21,7 @@ namespace IgnoreNegatives
                 do
                 {
                     Console.Write("Please insert a number (integer):  ");
-                    num = int.Parse(Console.ReadLine());
+                    num = int.Parse(Console.ReadLine()!);
                     if (num > 0) continue;
                     if (num == 0) break;
                     negativesCount++;
